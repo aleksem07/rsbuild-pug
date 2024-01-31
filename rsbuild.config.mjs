@@ -1,4 +1,5 @@
 import { defineConfig } from '@rsbuild/core';
+import { pluginPug } from '@rsbuild/plugin-pug';
 
 export default defineConfig({
   html: {
@@ -7,6 +8,14 @@ export default defineConfig({
       description: 'description',
     },
     favicon: './src/favicon.ico',
-    template: './src/index.html',
+    template: './src/index.pug',
+    templateParameters: {
+      titleProject: "titleProject!"
+    }
   },
+  plugins: [pluginPug({
+    pugOptions: {
+      basedir: './src/pug',
+    }
+  })],
 });
