@@ -1,0 +1,16 @@
+{
+  "name": "yandex-test",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rsbuild dev --open",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^0.3.11"
+  },
+  "dependencies": {
+    "pug": "^3.0.2"
+  }
+}
