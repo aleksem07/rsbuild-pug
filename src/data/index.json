@@ -1,0 +1,14 @@
+{
+  "template": "layouts/layout.pug",
+
+  "langRU": "ru",
+  "langEN": "en-US",
+  "faviconPath": "horse.png",
+  "author": "https://t.me/aleksem07",
+  "description": "Desc project",
+  "title": "Главная",
+
+  "h1": "desc h1",
+
+  "nav": "second"
+}
