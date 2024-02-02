@@ -1,6 +1,26 @@
-@import "./_normalize.scss";
-@import "./_variables.scss";
-@import "./_global.scss";
+@import "./components/+.scss";
 
-@import "./_header.scss";
-@import "./_footer.scss";
+body {
+  margin-inline: auto;
+  max-width: $width-desktop;
+  min-width: $width-mobile;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: normal;
+  margin: 0;
+}
