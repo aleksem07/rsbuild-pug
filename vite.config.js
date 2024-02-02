@@ -6,6 +6,7 @@ export default {
   root: "./",
   build: {
     outDir: "dist",
+    cssCodeSplit: false,
   },
   plugins: [
     vituum(),
