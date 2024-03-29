@@ -1,12 +1,15 @@
-include /layouts/head.pug
+include /mixins/mixins
 
-body
-  include /layouts/header.pug
+doctype html
+html(lang=langRU)
+  include /layouts/head.pug
+  body
+    include /layouts/header.pug
 
-  include /layouts/main.pug
-
-  a(href=nav)=nav
-
-  include /layouts/footer.pug
+    include /layouts/main.pug
   
-  <script src="/src/scripts/index.js" type="module"></script>
+    a(href=nav)=nav
+  
+    include /layouts/footer.pug
+    
+    <script src="/src/scripts/index.js" type="module"></script>
